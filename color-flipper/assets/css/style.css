@@ -1,0 +1,37 @@
+nav {
+    background: #fff;
+    box-shadow: 1px 2px 3px #808080;
+    padding: 1%;
+}
+ 
+nav ul {
+    display: inline;
+}
+ 
+nav ul li {
+    display: inline;
+}
+ 
+main {
+    padding: 15% 0 0 0;
+    text-align: center;
+}
+ 
+main h1 {
+    /* border: 1px solid #FFFFFF; */
+    padding: 1%;
+}
+ 
+main button {
+    outline: none;
+    border: none;
+    margin-top: 2%;
+    padding: 1%;
+    width: 10%;
+    border: 1px solid transparent;
+}
+ 
+main button:hover {
+    border: 1px solid #808080;
+    transition: .3s border ease-in-out;
+}
