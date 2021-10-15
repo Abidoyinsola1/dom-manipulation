@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    padding: 15% 25% 0;
+
+}
+ 
+ 
+button {
+    outline: none;
+    border: none;
+    margin-top: 2%;
+    padding: 1%;
+    width: 20%;
+    border: 1px solid #000;
+    background: transparent;
+    /* transition-delay: .2s; */
+}
+ 
+button:hover {
+    border: 1px solid #000;
+    color: #fff;
+    transition: border .3s ease-in-out;
+    background: #000;
+    transition: background .3s ease-in-out;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h6 {
+    font-size: 1.5em;
+}
+
+#result {
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: coral;
+    margin-top: 30%;
+    padding: 3%;
+}
+
+footer p {
+    font-size: 1.2em;
+}
