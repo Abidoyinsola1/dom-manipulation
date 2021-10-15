@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    padding: 15% 0 0 0;
+    /* background-color: yellow; */
+}
+ 
+ 
+h4 {
+    font-size:3em;
+}
+ 
+h1 {
+    font-size:5em;
+}
+ 
+button {
+    outline: none;
+    border: 1px solid #000;
+    margin-top: 2%;
+    padding: .6%;
+    width: 10%;
+    border: 1px solid #000;
+    background: transparent;
+    display: inline;
+}
+ 
+button:hover {
+    border: 1px solid #000;
+    color: white;
+    transition: border .3s ease-in-out;
+    background: #000;
+    transition: background .1s ease-in-out;
+}
