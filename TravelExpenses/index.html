@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Reimbursement</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <section class="top">
+        <h1>Doyinsola & Doyinsola Group</h1>
+        <h3>Reimbursement Policies:</h3>
+        <ul>
+          <li>Maximum of N5,000 per day for meals</li>
+          <li>Maximum of N6,000 for parking fees</li>
+          <li>Maximum of N20,000 for UBER rides</li>
+          <li>Maximum of N15,000 per night for hotel accommodation.</li>
+          <li>if a private vehicle was used, N200 per km driven.</li>
+          <li>Maximum of N10,000 for internet subscription.</li>
+        </ul>
+      </section>
+
+      <section class="bottom">
+        <div class="row">
+          <div class="col-md-6" id="left">
+            <input type="text" placeholder="Full Name" id="fullname" required /><sup>*</sup
+            ><br />
+            <input
+              type="number"
+              placeholder="Number of Days on trip" id="daysOnTrip"
+              required
+            /><sup>*</sup><br />
+            <input
+              type="number"
+              placeholder="Amount Spent on meals" id="amountOnMeal"
+              required
+            /><sup>*</sup><br />
+            <input type="number" placeholder="Flight Ticket Cost" id="flightTicket" required /><sup
+              >*</sup
+            ><br />
+            <input type="number" placeholder="Amount Spent Riding Uber" id="uberCharges" /><br />
+            <input
+              type="number"
+              placeholder="Number of Kilometres Driven" id="numOfKmDriven"
+            /><br />
+            <input type="number" placeholder="Parking Charges" id="parkingCharges"/><br />
+            <input
+              type="number"
+              placeholder="Conference & Seminar Registration Fee" id="registrationFee"
+              required
+            /><sup>*</sup><br />
+            <input type="number" placeholder="Hotel Accommodation" id="hotelAcc" required /><sup
+              >*</sup
+            ><br />
+            <input
+              type="number"
+              placeholder="Internet Subscription Cost" id="internetSub"
+              required
+            /><sup>*</sup><br />
+            <button class="btn btn-primary btn-lg" id="submit-button">Submit</button>
+          </div>
+
+          <div class="col-md-6" id="right">
+            <table class="table table-bordered table-hover">
+              <tr>
+                <td>Full Name</td>
+                <td id="fullnameValue"></td>
+              </tr>
+
+              <tr>
+                <td>Number of Days on trip</td>
+                <td id="daysOnTripValue"></td>
+              </tr>
+
+              <tr>
+                <td>Amount Spent on meals</td>
+                <td id="amountOnMealValue"></td>
+              </tr>
+
+              <tr>
+                <td>Flight Ticket Cost</td>
+                <td id="flightTicketValue"></td>
+              </tr>
+
+              <tr>
+                <td>Amount Spent Riding Uber</td>
+                <td id="uberChargesValue"></td>
+              </tr>
+
+              <tr>
+                <td>Number of Kilometres Driven</td>
+                <td id="numOfKmDrivenValue"></td>
+              </tr>
+
+              <tr>
+                <td>Parking Charges</td>
+                <td id="parkingChargesValue"></td>
+              </tr>
+
+              <tr>
+                <td>Conference & Seminar Registration Fee</td>
+                <td id="registrationFeeValue"></td>
+              </tr>
+
+              <tr>
+                <td>Hotel Accommodation</td>
+                <td id="hotelAccValue"></td>
+              </tr>
+
+              <tr>
+                <td>Internet Subscription Cost</td>
+                <td id="internetSubValue"></td>
+              </tr>
+
+              <tr>
+                <td><b>Total Expenses</b></td>
+                <td id="totalExpensesValue"></td>
+              </tr>
+
+              <tr>
+                <td><b>Total Reimbursement</b></td>
+                <td id="reimbursementValue"></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
